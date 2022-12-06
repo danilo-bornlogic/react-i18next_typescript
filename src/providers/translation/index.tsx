@@ -6,7 +6,7 @@ import { initReactI18next } from "react-i18next";
 import translations from "../../translations";
 
 const formatLanguage = (language?: string) => language?.replace("_", "-");
-const DEFAULT_LANGUAGE = "pt-BR";
+const DEFAULT_LANGUAGE = "en-US";
 
 const getUserLanguage = () => {
   return formatLanguage(DEFAULT_LANGUAGE);
